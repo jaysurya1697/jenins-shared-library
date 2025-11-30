@@ -1,3 +1,3 @@
 def call(Map config = [:]){
-  sh 'echo ${config.a} , ${config.b}'
+  sh "echo ${config.a} , ${config.b}"
 }
